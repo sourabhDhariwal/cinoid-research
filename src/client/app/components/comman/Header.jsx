@@ -1,12 +1,10 @@
 import React from 'react';
-
-import { Route, Link,Switch, BrowserRouter as Router    } from 'react-router-dom'
-import config from '../../../../config.json';
-
+import { Link} from 'react-router-dom'
+// 
 class Header extends React.Component {
     constructor() {
         super();
-        console.log(config.header_menu_items)
+        console.log("------",process.env)
         this.state = {
             logoImg:"../../../../assets/logo.jpg",
         };
@@ -14,7 +12,7 @@ class Header extends React.Component {
     }
 
     componentDidMount(){
-        console.log(process.env.CINOID_LOGO_IMAGE_PATH)
+       
     }
 
   render() {
@@ -32,37 +30,31 @@ class Header extends React.Component {
             </ul>
         </div>
         <nav className="navbar navbar-expand-md">
-            <a className="navbar-brand" href="#">
-                <img src={this.state.logoImg} alt="" />
-            </a>
+        <Link  className="navbar-brand" to="/">
+        <img src='./assets/logo.jpg' alt="" />
+        </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <i className="fa fa-bars" aria-hidden="true"></i>
             </button>
             <div className="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <a className="nav-link" href="/">Home</a>
+                    <Link  className="nav-link" to="/">Home</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/about">About</a>
+                    <Link className="nav-link" to="/about">About</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="search.html">Reports Store</a>
+                    <Link className="nav-link" to="/reportStore">Reports Store</Link>
                     </li> 
                     <li className="nav-item">
-                        <a className="nav-link" href="/contact">Contact</a>
+                       <Link className="nav-link" to="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>  
         </nav>
         
         </React.Fragment>
-        //  <div>
-        //      <React.Fragment></React.Fragment>
-        // </div>
-       
-         
-      
     );
   }
 }

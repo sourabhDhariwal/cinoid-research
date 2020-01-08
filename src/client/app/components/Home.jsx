@@ -30,16 +30,6 @@ class Home extends React.Component {
                                     Get Market Research, Business Risk & Industry Analysis Report
                                 </h4>
                                 <div className="flex_box">
-                                    <div className="dropdown">
-                                        <button type="button" className="btn btn-light dropdown-toggle custom_drop" data-toggle="dropdown">
-                                        All Items 	<span>&or;</span>
-                                        </button>
-                                        <div className="dropdown-menu">
-                                        <a className="dropdown-item" href="#">Link 1</a>
-                                        <a className="dropdown-item" href="#">Link 2</a>
-                                        <a className="dropdown-item" href="#">Link 3</a>
-                                        </div>
-                                    </div>
                                     <input name="Search" type="text" placeholder="Search Report" className="search_input"/>
                                     <button type="button" className="btn btn-primary btn_orange">Search</button>
                                 </div>
@@ -74,23 +64,6 @@ class Home extends React.Component {
                 </div>
             </div>
         </div>
-        
-
-        <div className="over_hidden">
-            <div className="container m_t_40 m_b_40">
-                <div className="row">
-                    <div className="col-sm-12 text-center">
-                        <h6 className=" m_t_20">ABOUT OUR HISTORY</h6>
-                        <h2 className="max_w_500 m_center m_t_20">We are Startuply and we create efficient web design and branding.</h2>
-                        <p className="m_t_40 max_w_750 m_center">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea commodo consequat. Duis aute irure dolor. In reprehenderit in voluptate velit esse cillum 
-                                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                        <a href="#" className="green_anc"><b>READ MORE</b></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-
         <div className="back_gray over_hidden">
             <div className="container m_t_60 m_b_60">
                 <div className="row">
@@ -243,8 +216,7 @@ class Home extends React.Component {
                             <div className="test_slide max_w_500 m_center block text-center">
                                 <img src="../../../assets/inverted-quotes.png" className="m_center mb-5 max_w_40"/>
                                 <h2 className="f_w_700 mb-5">This guys are awesome !</h2>
-                                <p>
-                                    “My experience with Arda Real Estate Consulting has enabled me to better assess current market risk level at any point in the home building cycle. Also, I have been able to make new valuable contacts.”
+                                <p> “My experience with Arda Real Estate Consulting has enabled me to better assess current market risk level at any point in the home building cycle. Also, I have been able to make new valuable contacts.”
                                     <br></br><br></br>
                                     <div className="flex_box flex_v_center flex_h_center">
                                         <img src="../../../assets/testimonial.jpg" className="user_img"/>
@@ -258,8 +230,7 @@ class Home extends React.Component {
                             <div className="test_slide max_w_500 m_center block text-center">
                                 <img src="../../../assets/inverted-quotes.png" className="m_center mb-5 max_w_40"/>
                                 <h2 className="f_w_700 mb-5">This guys are awesome !</h2>
-                                <p>
-                                    “My experience with Arda Real Estate Consulting has enabled me to better assess current market risk level at any point in the home building cycle. Also, I have been able to make new valuable contacts.”
+                                <p>“My experience with Arda Real Estate Consulting has enabled me to better assess current market risk level at any point in the home building cycle. Also, I have been able to make new valuable contacts.”
                                     <br></br><br></br>
                                     <div className="flex_box flex_v_center flex_h_center">
                                         <img src="../../../assets/testimonial.jpg" className="user_img"/>
@@ -316,64 +287,6 @@ class Home extends React.Component {
                                 <div className="border_line dark_line mb-3"></div>
                                 <p>January 01, 2018 <a href="#" className="float-right white">Read More</a></p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div className="container m_b_30 m_t_40">
-            <div className="row">
-                <div className="col-md-6">
-                    <h3 className="line_head">
-                        <span>CONTACT INFO</span>
-                    </h3>
-                    <ul className="custom_list">
-                        <li className="flex_box flex_v_top m_b_20">
-                            <img src="../../../assets/shape-1.jpg"/>
-                            <p>
-                                <b>VISIT US</b><br></br>
-                                <span className="gray">20, 2 Elizabeth ST, Melbourne, Victoria 3000</span>
-                            </p>
-                        </li>
-                        <li className="flex_box flex_v_top m_b_20">
-                            <img src="../../../assets/shape-2.jpg"/>
-                            <p>
-                                <b>MAIL US</b><br></br>
-                                <span className="gray">support@yourmail.com</span>
-                            </p>
-                        </li>
-                        <li className="flex_box flex_v_top m_b_20">
-                            <img src="../../../assets/shape-3.jpg"/>
-                            <p>
-                                <b>CALL US</b><br></br>
-                                <span className="gray">+(100) 123 4567 890</span>
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-                <div className="col-md-6 custom_form">
-                    <h3 className="line_head">
-                        <span>LEAVE MESSAGE</span>
-                    </h3>
-                    <div className="row">
-                        <div className="col-md-6 m_b_15">
-                            <input type="text" placeholder="First Name"/>
-                        </div>
-                        <div className="col-md-6 m_b_15">
-                            <input type="text" placeholder="Last Name"/>
-                        </div>
-                        <div className="col-md-6 m_b_15">
-                            <input type="text" placeholder="Email"/>
-                        </div>
-                        <div className="col-md-6 m_b_15">
-                            <input type="text" placeholder="Subject"/>
-                        </div>
-                        <div className="col-md-12 m_b_15">
-                            <textarea placeholder="Your Message" rows="5"></textarea>
-                        </div>
-                        <div className="col-md-12 m_b_15">
-                            <button type="submit">SEND MESSAGE</button>
                         </div>
                     </div>
                 </div>

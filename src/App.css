@@ -56,6 +56,12 @@ body,html{
   background-size: cover;
   padding: 80px 0px;
 }
+
+.sm_banner_about{
+  background-image: url(./assets/company-overview-banner.jpg  );
+  background-size: cover;
+  padding: 150px 0px;
+}
 .back_login{
   background-image: url(./assets/login_back.jpg);
   background-size: cover;
@@ -527,6 +533,11 @@ body,html{
 .flex_h_center{
   justify-content: center;
 }
+
+.sm_banner_about.front_banner {
+  background:#3398cc;
+  padding: 25vh 0px 0px;
+}
 .sm_banner.front_banner {
   background:#3398cc;
   padding: 25vh 0px 0px;
@@ -764,4 +775,52 @@ body,html{
   .sm_banner.front_banner img{
       display: none;
   }
+}
+
+@media (max-width:767px){
+  .sm_banner_about.front_banner {
+      padding: 40px 0px;
+  }
+  .sm_banner_about.front_banner img{
+      display: none;
+  }
+}
+
+
+/*  Extra */
+
+.elementor-text-editor {
+  padding: 0px 0px 0px 70px;
+}
+.entry-content p {
+  margin-bottom: 16px;
+}
+
+b{
+  font-weight: 700;
+}
+
+.elementor-text-editor {
+  color: #0f3b8f;
+  font-family: "Barlow", Sans-serif;
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 48px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.errorMEssage{
+  color: red
 }
