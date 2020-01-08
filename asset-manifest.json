@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/cinoid-research/static/css/main.39715ddf.chunk.css",
-    "main.js": "/cinoid-research/static/js/main.7c8c8267.chunk.js",
-    "main.js.map": "/cinoid-research/static/js/main.7c8c8267.chunk.js.map",
+    "main.css": "/cinoid-research/static/css/main.e01f66c5.chunk.css",
+    "main.js": "/cinoid-research/static/js/main.9611b333.chunk.js",
+    "main.js.map": "/cinoid-research/static/js/main.9611b333.chunk.js.map",
     "runtime-main.js": "/cinoid-research/static/js/runtime-main.3b7997d3.js",
     "runtime-main.js.map": "/cinoid-research/static/js/runtime-main.3b7997d3.js.map",
     "static/css/2.17e5ed98.chunk.css": "/cinoid-research/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.2819a1d8.chunk.js": "/cinoid-research/static/js/2.2819a1d8.chunk.js",
-    "static/js/2.2819a1d8.chunk.js.map": "/cinoid-research/static/js/2.2819a1d8.chunk.js.map",
+    "static/js/2.5dd4a838.chunk.js": "/cinoid-research/static/js/2.5dd4a838.chunk.js",
+    "static/js/2.5dd4a838.chunk.js.map": "/cinoid-research/static/js/2.5dd4a838.chunk.js.map",
     "index.html": "/cinoid-research/index.html",
-    "precache-manifest.64548d6983e10485e7735d64c6963eb3.js": "/cinoid-research/precache-manifest.64548d6983e10485e7735d64c6963eb3.js",
+    "precache-manifest.04736b02da31dd7f2fbc850354007293.js": "/cinoid-research/precache-manifest.04736b02da31dd7f2fbc850354007293.js",
     "service-worker.js": "/cinoid-research/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/cinoid-research/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.39715ddf.chunk.css.map": "/cinoid-research/static/css/main.39715ddf.chunk.css.map",
-    "static/js/2.2819a1d8.chunk.js.LICENSE": "/cinoid-research/static/js/2.2819a1d8.chunk.js.LICENSE",
+    "static/css/main.e01f66c5.chunk.css.map": "/cinoid-research/static/css/main.e01f66c5.chunk.css.map",
+    "static/js/2.5dd4a838.chunk.js.LICENSE": "/cinoid-research/static/js/2.5dd4a838.chunk.js.LICENSE",
     "static/media/App.css": "/cinoid-research/static/media/team_work.4759deea.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3b7997d3.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.2819a1d8.chunk.js",
-    "static/css/main.39715ddf.chunk.css",
-    "static/js/main.7c8c8267.chunk.js"
+    "static/js/2.5dd4a838.chunk.js",
+    "static/css/main.e01f66c5.chunk.css",
+    "static/js/main.9611b333.chunk.js"
   ]
 }

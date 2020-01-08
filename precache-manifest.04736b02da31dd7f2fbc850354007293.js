@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac93117d9a5789a4f97fb53cec857598",
+    "revision": "8c93be6f3da811d37d51506bf1e008a0",
     "url": "/cinoid-research/index.html"
   },
   {
-    "revision": "731591fa51893ef7a7af",
+    "revision": "ffb6f67e275e7702695a",
     "url": "/cinoid-research/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "d19cb8916fbbb3497733",
-    "url": "/cinoid-research/static/css/main.39715ddf.chunk.css"
+    "revision": "fe566e9e606ee10c7008",
+    "url": "/cinoid-research/static/css/main.e01f66c5.chunk.css"
   },
   {
-    "revision": "731591fa51893ef7a7af",
-    "url": "/cinoid-research/static/js/2.2819a1d8.chunk.js"
+    "revision": "ffb6f67e275e7702695a",
+    "url": "/cinoid-research/static/js/2.5dd4a838.chunk.js"
   },
   {
-    "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/cinoid-research/static/js/2.2819a1d8.chunk.js.LICENSE"
+    "revision": "e71e6872c2c23a0effc1ae2a720ff822",
+    "url": "/cinoid-research/static/js/2.5dd4a838.chunk.js.LICENSE"
   },
   {
-    "revision": "d19cb8916fbbb3497733",
-    "url": "/cinoid-research/static/js/main.7c8c8267.chunk.js"
+    "revision": "fe566e9e606ee10c7008",
+    "url": "/cinoid-research/static/js/main.9611b333.chunk.js"
   },
   {
     "revision": "3290bffbb7e0db073ff8",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6dcebb5ebbbbe4ba16a4ba9f802ec723",
     "url": "/cinoid-research/static/media/banner_slider.6dcebb5e.jpg"
+  },
+  {
+    "revision": "489bc173edbf8f70e58e442cddcc25ad",
+    "url": "/cinoid-research/static/media/company-overview-banner.489bc173.jpg"
   },
   {
     "revision": "ed2a16ed42257046e66bfedbdc03fe72",
