@@ -30,7 +30,21 @@ class ContactUs extends React.Component {
        
     }
     componentDidMount(){
-        this.socket.emit('addContactUsForm',{hello:123})
+        this.socket.on('responseContactUs',(data)=>{
+            if(data.status){
+                this.setState({
+                    first_name:"",
+                    last_name:"",
+                    email:"",
+                    subject:'',
+                    message:""
+                })
+                alert(data.dispMessage);
+            }else{
+                alert(data.dispMessage);
+            }
+        })
+
         
    } 
    
@@ -45,9 +59,7 @@ class ContactUs extends React.Component {
             this.switchFunction(key,rest[key]);
         }
      });
-
-     console.log("///////////////",this.state.formErrors)
-     Object.keys(this.state.formErrors).forEach(key=>{
+  Object.keys(this.state.formErrors).forEach(key=>{
         console.log("11111111",key  )
         if(this.state.formErrors[key].length>0){
             valid =false;
@@ -70,10 +82,8 @@ class ContactUs extends React.Component {
             Subject  ${this.state.subject}
             Message  ${this.state.message}
             `  
-        )
-        alert('Your Request Submitted Successfully.')
-    }else{
-        
+        );
+        this.socket.emit('addContactUsForm',this.state);
     }
    }
 
@@ -171,13 +181,14 @@ class ContactUs extends React.Component {
                     <h3 className="line_head">
                         <span>LEAVE MESSAGE</span>
                     </h3>
-                    <form onSubmit={this.handleSubmit} noValidate   >
+                    <form ref={(el) => this.myFormRef} onSubmit={this.handleSubmit} noValidate   >
                         <div className="row">
                             <div className="col-md-6 m_b_15">
                                 <input 
                                    type="text"
                                    placeholder="First Name" 
                                    name ="first_name"
+                                   value={this.state.first_name}
                                    onChange={this.handleChange}/>
                                    {formErrors.first_name.length>0 && (
                                     <span className="errorMEssage">{formErrors.first_name}</span> 
@@ -188,6 +199,7 @@ class ContactUs extends React.Component {
                                   type="text" 
                                   placeholder="Last Name"
                                   name ="last_name"
+                                  value={this.state.last_name}
                                   onChange={this.handleChange}
                                   />
                                   {formErrors.last_name.length>0 && (
@@ -199,6 +211,7 @@ class ContactUs extends React.Component {
                                    type="text"  
                                    name ="email"
                                    placeholder="Email"
+                                   value={this.state.email}
                                    onChange={this.handleChange}
                                    />
                                    {formErrors.email.length>0 && (
@@ -210,6 +223,7 @@ class ContactUs extends React.Component {
                                    type="text" 
                                    name ="subject"
                                    placeholder="Subject"
+                                   value={this.state.subject}
                                    onChange={this.handleChange}
                                    />
                                    {formErrors.subject.length>0 && (
@@ -219,6 +233,7 @@ class ContactUs extends React.Component {
                             <div className="col-md-12 m_b_15">
                                 <textarea 
                                     name ="message"
+                                    value={this.state.message}
                                     placeholder="Your Message" 
                                     rows="5"
                                     onChange={this.handleChange}

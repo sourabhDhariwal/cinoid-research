@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
          
-         <BrowserRouter>
+         <HashRouter>
             <Header/>
             <Switch>
             <Route exact path="/" component={Home}></Route>
@@ -22,7 +22,7 @@ function App() {
             <Route  path="/reportStore" component={ReportStore}></Route>
             <Route  path="/about" component={AboutUS}></Route>
             </Switch>
-          </BrowserRouter>
+          </HashRouter>
             <Footer />
     </div>
 

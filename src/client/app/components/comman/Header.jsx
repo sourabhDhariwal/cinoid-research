@@ -11,9 +11,9 @@ class Header extends React.Component {
        
     }
 
-    componentDidMount(){
+    // componentDidMount(){
        
-    }
+    // }
 
   render() {
     return (
@@ -39,16 +39,16 @@ class Header extends React.Component {
             <div className="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                    <Link  className="nav-link" to="/">Home</Link>
+                    <Link  id ="home" name ="home" className="nav-link" to="/">Home</Link>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" to="/about">About</Link>
+                    <Link id ="about" name ="about" className="nav-link" to="/about">About</Link>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" to="/reportStore">Reports Store</Link>
+                    <Link id ="report" name ="report" className="nav-link" to="/reportStore">Reports Store</Link>
                     </li> 
                     <li className="nav-item">
-                       <Link className="nav-link" to="/contact">Contact</Link>
+                       <Link id ="contact" name ="contact" className="nav-link" to="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>  

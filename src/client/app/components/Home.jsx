@@ -10,9 +10,9 @@ class Home extends React.Component {
        
     }
 
-    componentDidMount(){
-        console.log(process.env.CINOID_LOGO_IMAGE_PATH)
-    }
+    // componentDidMount(){
+    //     console.log(process.env.CINOID_LOGO_IMAGE_PATH)
+    // }
 
   render() {
     return (
